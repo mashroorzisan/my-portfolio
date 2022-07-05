@@ -2,5 +2,58 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
     margin: 0;
+}
 
+h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+    color: grey;
+}
+
+.orange {
+    color: orange;
+}
+
+.top {
+    background-image: url(/imgs/top-banner.png);
+    background-repeat: no-repeat;
+    margin-bottom: 5%;
+}
+
+.middle {
+    background-image: url(/imgs/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.flex-cont {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.para1 {
+    width: 45%;
+}
+
+.tban {
+    padding-left: 5%;
+    padding-right: 10%;
+}
+
+.mban {
+    padding-right: 5%;
+    padding-left: 10%;
 }
