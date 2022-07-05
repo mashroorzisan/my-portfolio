@@ -25,7 +25,7 @@ p {
 }
 
 .middle {
-    background-image: url(/imgs/dream-bg.png);
+    background-image: url(imgs/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
     margin-top: 5%;
@@ -33,7 +33,7 @@ p {
 }
 
 .bottom {
-    background-image: url(/imgs/exp-bg.png);
+    background-image: url(imgs/exp-bg.png);
     background-repeat: no-repeat;
     background-position-x: left;
     background-position-y: 50%;
