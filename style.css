@@ -32,6 +32,13 @@ p {
     margin-bottom: 5%;
 }
 
+.bottom {
+    background-image: url(/imgs/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: 50%;
+}
+
 .flex-cont {
     display: flex;
 }
@@ -56,4 +63,41 @@ p {
 .mban {
     padding-right: 5%;
     padding-left: 10%;
+}
+
+.button {
+    background-image: linear-gradient(rgb(255, 96, 10), rgba(212, 10, 118, 0.861));
+    color: antiquewhite;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.box1 {
+    box-shadow: 12px 12px 30px 10px grey;
+    width: 40%;
+    margin: 5%;
+    border-left: 10px solid orangered;
+    padding: 30px;
+    border-radius: 5px;
+    ;
+}
+
+.box2 {
+    box-shadow: 12px 12px 30px 10px grey;
+    width: 40%;
+    margin: 5%;
+    border-left: 10px solid blueviolet;
+    padding: 30px;
+    border-radius: 5px;
+    ;
+}
+
+.exp {
+    margin: 20px;
+}
+
+footer p {
+    text-align: center;
 }
